@@ -4,6 +4,7 @@ A simple command line tool to tweet from your terminal.
 
 ## Installation
 
+Installation Requires Node
 ```npm install -g terminal-tweeter```
 
 ## Add your Twitter API keys
