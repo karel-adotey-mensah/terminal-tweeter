@@ -17,7 +17,7 @@ Installation Requires Node
 
 ## Usage
 
-```terminaltweeter --tweet "Hello World!"```
+Send a tweet with the CLI ```terminaltweeter --tweet "Hello World!"```
 OR
 ```terminaltweeter -tw "Hello World!"```
 
