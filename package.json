@@ -1,5 +1,5 @@
 {
-  "name": "terminal-tweeter",
+  "name": "@nfn8hax/terminal-tweeter",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -11,8 +11,15 @@
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "twitter",
+    "terminal",
+    "tweet",
+    "cli",
+    "productivity"
+  ],
+  "author": "Karel Adotey Mensah",
+  "homepage": "https://github.com/nfn8hax/terminal-tweeter/blob/main/README.md",
   "license": "ISC",
   "dependencies": {
     "commander": "^10.0.1",
