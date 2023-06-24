@@ -11,7 +11,7 @@ const program = new Command()
 program
 	.version('1.0.0')
 	.description('CLI for the Terminal Tweeter')
-	.option('-tw, --tweet  <value>', 'Tweet something')
+	.option('-tw, --tweet  <value...>', 'tweet something')
 	.parse(process.argv)
 
 const checkTwitterCredentials = () => {
@@ -50,7 +50,7 @@ const tweet = async (tweet: string) => {
 }
 
 if (options.tweet) {
-	tweet(options.tweet)
+	tweet(options.tweet.join(' '))
 }
 
 if (!process.argv.slice(2).length) {
