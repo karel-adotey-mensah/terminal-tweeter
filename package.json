@@ -1,10 +1,10 @@
 {
   "name": "@nfn8hax/terminal-tweeter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "dist/index.js",
   "bin": {
-    "terminaltweeter": "./dist/index.js"
+    "tt": "./dist/index.js"
   },
   "scripts": {
     "start": "tsc && node dist/index.js",
