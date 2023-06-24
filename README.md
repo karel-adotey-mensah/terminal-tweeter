@@ -17,9 +17,10 @@ Installation Requires Node
 
 ## Usage
 
-Send a tweet with the CLI ```terminaltweeter --tweet "Hello World!"```
+Send a tweet with the CLI ```tt --tweet Hello World!```
 OR
-```terminaltweeter -tw "Hello World!"```
+```tt -tw Hello World!```
+Quotes are not required.
 
 ## Options
 
@@ -28,3 +29,7 @@ OR
 ```--help, -h``` - Show help.
 
 ```--version, -v``` - Show version number.
+
+## Planned Features
+- Rapid fire tweet mode. A REPL that allows you to send multiple tweets until you exit.
+- Threaded tweets. Send a tweet that is part of a thread.
